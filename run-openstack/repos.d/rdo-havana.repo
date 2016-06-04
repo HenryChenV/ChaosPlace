@@ -1,0 +1,8 @@
+[openstack-havana]
+name=OpenStack Havana Repository
+baseurl=http://repo.henry.chen/openstack-havana/
+enabled=1
+skip_if_unavailable=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RDO-Havana
+priority=98
