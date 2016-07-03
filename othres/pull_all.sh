@@ -24,7 +24,6 @@ do
 
     if [ -d ${PRJ_DIR}/.git ]; then
         cd ${PRJ_DIR}
-        echo `pwd`
         git pull
         cd ${CUR_DIR}
     else
